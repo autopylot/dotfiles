@@ -1,0 +1,36 @@
+# Essential Tools
+
+choco install googlechrome
+#wox
+
+choco install 7zip
+choco install windirstat
+choco install dropbox
+choco install everything
+choco install teracopy
+#qbittorrent
+
+cinst -y directx (latest directx)
+cinst -y vcredist-all (all latest visual c++ runtimes)
+#msi afterburner
+
+#keepass
+#malwarebytes
+#supreanitspyware
+# ccleaner
+choco install revo.uninstaller
+
+choco install vlc
+choco install calirbre
+choco install rufus
+#steam
+
+choco install slack
+choco install teamviewer
+
+choco install git.install
+#visual studio code
+#python
+#anadconda
+#cygwin
+# ohmyzsh

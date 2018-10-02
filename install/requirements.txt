@@ -1,0 +1,36 @@
+# Essential Tools
+googlechrome
+wox
+jre8
+
+# File mangagement
+7zip
+windirstat
+dropbox
+everything
+teracopy
+qbittorrent
+
+# Security
+keepassxc
+malwarebytes
+supreanitspyware
+
+# Utilites
+ccleaner
+revo.uninstaller
+slack
+teamviewer
+
+# Media
+vlc
+calibre
+rufus
+steam
+
+# Developer
+git.install
+vscode
+python
+anaconda3
+mingw
