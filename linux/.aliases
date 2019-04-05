@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# Easier navigation: .., ..., ...., ....., ~ and -
+alias ..="cd .."
+alias ...="cd ../.."
+alias ~="cd ~" # `cd` is probably faster to type though
+alias -- -="cd -"
+
+# List all files in human-readable long format
+alias ls="ls -lah"
+
+# Enable aliases to be sudo’ed
+alias sudo='sudo '
