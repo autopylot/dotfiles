@@ -2,7 +2,7 @@
 
 Python shell script for setting up fresh installs.
 
-A little project in using Python for shell scripting. Because I use multiple operating systems, I wanted a system agnostic setup script. 
+A little project in using Python for shell scripting. Because I work across multiple operating systems, I wanted a system agnostic setup script. 
 
 <!-- ### Prerequisites 
 
