@@ -29,7 +29,8 @@ dev_tools = [
     "cmake",
     "python",
     "MySQL",
-    "git"
+    "git",
+    "lepton"
 ]
 
 
@@ -62,14 +63,16 @@ style = style_from_dict({
 })
 
 
-# Choose os setup
-# TODO: windows, linux, macos
-select_os = [{
-    "type": "list",
-    "name": "os",
-    "message": "Setting up which operating system?",
-    "choices": ["Linux", "Windows", "macOS"]
-}]
+# # Choose os setup
+# # TODO: windows, linux, macos
+# select_os = [{
+#     "type": "list",
+#     "name": "os",
+#     "message": "Setting up which operating system?",
+#     "choices": ["Linux", "Windows", "macOS"]
+# }]
+
+# Detect operating system
 
 answers = prompt(select_os, style=style)
 
@@ -115,4 +118,6 @@ else:
 
 # Link dotfiles
     
-    # Install gnu stow
+    # Install gnu stow or symlink
+
+    # Source .config files
